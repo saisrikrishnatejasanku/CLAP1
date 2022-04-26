@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main{
+   int n,m;
+   scanf("%d", &n, &m);
+   
+   printf("Addition of two numbers is: %d\n", n+m);
+   printf("Subtraction of two numbers is: %d", n-m);
+   printf("Multiplication of two numbers is: %d\n", n*m);
+   printf("Division of two numbers is: %d", n/m);
+   printf("Modulus of two numbers is: %d", n%m);
+   return 0;
+}
